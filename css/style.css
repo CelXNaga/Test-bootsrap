@@ -1,0 +1,23 @@
+.inner {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header div#logo {
+	border-style: solid;
+	color: #85200c;
+}
+
+body a, 
+body a p {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.spoiler:before {
+	content: "- ";
+}
+
+a.spoiler.collapsed:before {
+	content: "+ ";
+}
